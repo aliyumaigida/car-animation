@@ -1,0 +1,177 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+#images {
+    width: 100%;
+    height: 190px;
+}
+
+#scene {
+    width: 100%;
+    height: 190px;
+    gap: 20px;
+    margin-top: -10%;
+}
+
+.road {
+    width: 100%;
+    height: 200px;
+    margin-top: -30px;
+}
+
+.rail {
+    width: 100%;
+    height: 140px;
+    margin-top: -45px;
+}
+
+.rby {
+    width: 100%;
+    height: 200px;
+    margin-top: -50px;
+}
+
+.meet {
+    margin-top: -320px;
+    animation: lady 10s linear infinite;
+}
+
+@keyframes lady {
+    From {
+        transform: translate(-200px);
+    }
+
+    to {
+        transform: translate(1200px);
+    }
+}
+
+.met {
+    margin-top: -390px;
+    animation: man 15s linear infinite;
+}
+
+@keyframes man {
+    From {
+        transform: translate(1500px);
+    }
+
+    to {
+        transform: translate(-1200px);
+    }
+    
+}
+
+.para {
+    margin-top: 140px;
+    animation: bus 8s linear infinite;
+}
+
+@keyframes bus {
+    From {
+        transform: translate(1800px);
+    }
+
+    to {
+        transform: translate(-1200px);
+    }
+    
+}
+
+.this {
+    margin-top: -45px;
+    animation: bus 9s linear infinite;
+}
+
+@keyframes bus {
+    From {
+        transform: translate(1800px);
+    }
+
+    to {
+        transform: translate(-1200px);
+    }
+    
+}
+
+.gist {
+    margin-top: -55px;
+    animation: jug 10s linear infinite;
+}
+
+@keyframes jug {
+    From {
+        transform: translate(1800px);
+    }
+
+    to {
+        transform: translate(-1200px);
+    }
+}
+
+#gentle {
+    margin-top: -690px;
+    animation: key 4s linear infinite;
+}
+
+@keyframes key {
+    from {
+        transform: translate(1000px);
+    }
+
+    to {
+        transform: translate(-1300px);
+    }  
+}
+
+#serious {
+    margin-top: 160px;
+    animation: yel 8s linear infinite;
+}
+
+@keyframes yel {
+    from {
+        transform: translate(-1500px);
+    }
+
+    to {
+        transform: translate(1900px);
+    }
+    
+}
+
+.green {
+    margin-top: -60px;
+    animation: gree 8s linear infinite;
+}
+
+@keyframes gree {
+    from {
+        transform: translate(-1500px);
+    }
+
+    to {
+        transform: translate(1900px);
+    }
+    
+}
+
+#light {
+    margin-top: -330px;
+    margin-left: 300px;
+}
+
+#second {
+    margin-left: 390px;
+    margin-top: -800px;
+}
+
+#third{
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+
